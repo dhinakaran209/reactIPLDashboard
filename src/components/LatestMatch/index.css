@@ -1,0 +1,111 @@
+.latest-match-container {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 85%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.competing-team-logo {
+  width: 20%;
+  height: 85%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team-logo {
+    width: 30%;
+    border-radius: 10px;
+  }
+  .first-container {
+    width: 50%;
+  }
+  .latest-match-stats {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.first-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .first-container {
+    width: 60%;
+  }
+
+  .latest-match-stats {
+    text-align: right;
+    width: 40%;
+  }
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+.seperator {
+  border: 1px solid;
+}
+
+@media screen and (min-width: 768px) {
+  .seperator {
+    display: none;
+  }
+}
