@@ -62,9 +62,6 @@ To run the IPL Dashboard locally on your machine, follow these steps:
 
 Contributions to the IPL Dashboard are welcome! If you'd like to contribute, please fork the repository and create a pull request with your changes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
